@@ -14,7 +14,7 @@
     <!-- Styles / Scripts -->
     <link href="{{ asset('lib/animate/animate.min.css') }}" rel="stylesheet">
     @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
-        @vite(['resources/css/app.css', 'resources/js/app.js', 'resources/css/main.css', 'resources/js/script.js'])
+        @vite(['resources/css/app.css', 'resources/js/app.js',])
     @endif
 </head>
 
